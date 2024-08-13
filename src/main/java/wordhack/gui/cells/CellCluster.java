@@ -165,9 +165,9 @@ public interface CellCluster {
      * Clears all cells from the cluster. If the cluster is closed, it cannot be
      * cleared unless {@code bypass} is set to true.
      *
-     * @param bypass a flag to control whether to bypass the closed flag
+     * @param bypassClosed a flag to control whether to bypass the closed flag
      */
-    public void clear(boolean bypass);
+    public void clear(boolean bypassClosed);
 
     /**
      * Sets the content of each cell in the cluster to the specified character.

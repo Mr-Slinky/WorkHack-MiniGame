@@ -81,7 +81,7 @@ public interface Cell {
      * The default font used for displaying the content of cells. This font is
      * used to render the cell's content unless explicitly changed.
      */
-    static final Font DEFAULT_FONT = new Font("Monospaced", Font.PLAIN, 18);
+    static final Font DEFAULT_FONT = new Font("Monospace", Font.PLAIN, 18);
 
     // ------------------------------ Getters ------------------------------- //
     /**
